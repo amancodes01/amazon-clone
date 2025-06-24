@@ -1,0 +1,456 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+.navbar{
+    height:60px;
+    background-color:#131921;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.nav-logo{
+    height:50px;    /*60*/
+    width:114px;    /*114*/
+    padding-top:4px;
+    background-image:url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+    background-position:-6px -121px;
+    background-repeat: no-repeat;
+    background-size:374px;
+    /* background-color:red; */
+}
+
+.nav-location{
+    height:50px;
+    width:89px;
+    margin:5px 2px 5px 0px;
+    padding:0px 9px 0px 9px;
+    /* background-color:red; */
+    flex-direction: column;
+    display:flex;
+    justify-content:center;
+}
+.nav-location-part2{
+    /* background-color:yellow; */
+    display:flex;
+    /* justify-content:center; */
+    align-items:center;
+}
+.nav-location-part2a{
+    height:18px;
+    margin:0px 0px 0px 0px;
+    font-size:18px;
+    color:white;
+
+}
+.nav-location-part1{
+    margin-left:15px;
+    font-size:12px;
+    font-weight:400;
+    color:#ccc;
+}
+.nav-location-part2b{
+    font-size:14px;
+    font-weight:700;
+    margin-left:2px;
+    color:#fff;
+}
+
+.border{
+    border:1px solid transparent;
+    border-radius:2px;
+}
+
+.border:hover{
+    border : 1px solid white;
+}
+
+.nav-searchbar{
+    height:60px;
+    width:654px;
+    margin:0px 6px 0px 6px;
+    padding:10px 4px 10px 3px;
+    /* background-color:red; */
+}
+
+.nav-searchbar{
+    font-size:0px;
+    display:flex;
+}
+
+.nav-searchbar-select{
+    height:40px;
+    width:52px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color:#e6e6e6;
+    text-align:center;
+    flex-shrink:0;
+}
+.nav-searchbar-input{
+    height:40px;
+    width:100%;
+    padding:0px 0px 0px 10px;
+    color:#111;
+    font-size:15px;
+}
+.nav-searchbar-button{
+    height:40px;
+    width:45px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    font-size:20px;
+    flex-shrink:0;
+    background-color:rgb(248, 233, 21);
+    color:#131921;
+}
+
+.opacity08:hover{
+    opacity:0.8;
+}
+
+.opacity09:hover{
+    opacity:0.95;
+}
+.nav-location-logo{
+    height:50px;
+    width:62px;
+    /* background-color:red; */
+}
+.nav-location-logo-image{
+    height:18px;
+    width:24px;
+    margin-left:2px;
+}
+.nav-location-logo-text{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-left:3px;
+}
+.nav-location-logo-margin{
+    display:flex;
+    margin-top:20px;
+}
+.nav-location-logo-arrow{
+    color:#a7acb2;
+    font-size:12px;
+    margin-top:5px;
+    margin-left:2px;
+}
+.nav-signin{
+    height:50px;
+    width:128px;
+    /* background-color:red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.nav-signin-text1{
+    font-size:12px;
+    font-weight:400;
+    color:#fff;
+    padding-left:6px;
+}
+.nav-signin-text2{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-left:6px;
+}
+.nav-signin-arrow{
+    color:#a7acb2;
+    font-size:12px;
+    padding-left:3px;
+    margin-top:3px;
+}
+.nav-order{
+    height:50px;
+    width:70px;
+    /* background-color:red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.nav-order-text1{
+    font-size:12px;
+    font-weight:400;
+    color:#fff;
+    margin-left:5px;
+}
+.nav-order-text2{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-left:5px;
+}
+.nav-order-text3{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-left:3px;
+}
+.nav-order-flex-cont{
+    display:flex;
+    align-items:center; /*it does not matter*/
+}
+.nav-cart{
+    height:50px;
+    width:84px;
+    padding:0px 8px 10px 8px;
+    /* background-color:red; */
+}
+.nav-cart-logo{
+    font-size:32px;
+    color:#fff;
+}
+.nav-cart-text1{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-top:18px;
+}
+.nav-cart-flex-cont{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:8px;
+}
+.navbar-a{
+    height:39px;
+    background-color:#232f3e;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+.navbar-a-icon-text{
+    height:39px;
+    width:59px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navbar-a-icon-text-icon{
+    font-size:20px;
+    color:#fff;
+}
+.navbar-a-icon-text-text{
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    margin-left:5px;
+}
+.navbar-a-todaydeal{
+    height:28px;
+    width:97px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-primevideo{
+    height:28px;
+    width:87px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-registry{
+    height:28px;
+    width:62px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-customerservice{
+    height:28px;
+    width:122px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-giftcard{
+    height:28px;
+    width:74px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-sell{
+    height:28px;
+    width:33px;
+    padding:8px 5px 8px 5px;
+    margin:5px 0px 6px 0px;
+}
+.navbar-a-font{
+    font-size:14px;
+    color:#fff;
+}
+.row1{
+    display:flex;
+}
+.row1-col-size{
+    height:420px;
+    width:327px;    /*327px*/
+}
+.row1-col1{
+    /* background-color:red; */
+    /* flex-shrink:0; */
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:0px;
+    align-content:flex-start;
+}
+.row1-col2{
+    /* background-color:pink; */
+    /* flex-shrink:0; */
+}
+.row1-col3{
+    /* background-color:yellow; */
+    /* flex-shrink:0; */
+}
+.row1-col4{
+    /* background-color:brown; */
+    /* flex-shrink:0; */
+}
+.row1-col1n-size{
+    height:115px;
+    width:150px;
+}
+
+.row1-col1a{
+    /* background-color:green; */
+}
+.row1-col1n-img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.row1-col1b{
+    /* background-color:yellow; */
+}
+.row1-col1c{
+    /* background-color:blue; */
+}
+.row1-col1d{
+    /* background-color:pink; */
+}
+.row1-coln-upper-p{
+    padding-top:20px;
+}
+.row1-coln-lower-p{
+    margin-top:26px;
+}
+
+.row2-flex{
+    display:flex;
+    /* background-color:black; */
+    overflow:hidden;
+    height:219.5px;
+    gap:10px;
+}
+
+.row2-col{
+    flex-shrink:0;
+}
+.row2{
+    overflow:hidden;
+    padding-bottom:30px;
+}
+.row2-flex:hover{
+    overflow:auto;
+}
+.row2-coln-img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.row2-coln-upper-p{
+    padding-top:20px;
+}
+.hr{
+    height:0.3px;
+    /* margin-top:20px; */
+    background-color:grey;
+}
+.footer1a{
+    color:#FFF;
+    font-size:13px;
+    background-color:#37475A;
+    height:49px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer1b-box1234-contentheading{
+    font-size:16px;
+    font-weight:700;
+    color:#FFF;
+    padding-bottom:14px;
+}
+.footer1b-box1234-subcontent{
+    font-size:14px;
+    /* font-weight:700; */
+    color:#DDD;
+    padding-bottom:10px;
+}
+.footer1b{
+    display:flex;
+    background-color:#232F3E;
+    justify-content:space-evenly;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.footer1c {
+    /* font-size:0px; */
+    display:flex;
+    justify-content:center;
+    background-color:#232F3E;
+  }
+
+  .footer1c-allbox-size {
+    height: 33px;
+    width: fit-content;
+    padding: 6px 18px 6px 8px;
+  }
+
+  .footer1c-box2,
+  .footer1c-box3,
+  .footer1c-box4 {
+    display: inline-flex;
+    align-items: center;
+    /* background-color: red; */
+    vertical-align:top;
+    border:1px solid #848688;
+  }
+
+  .footer1c-child-p {
+    font-size: 13px;
+    color:#CCC;
+    padding:0px 7.8px 0px 7.8px;
+  }
+  .footer1c-child-icon {
+    font-size: 13px;
+    color:#CCC;
+  }
+
+  .footer1c-box1 {
+    width: 86px;
+    height: 33px;
+    background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+    /* background-color: blue; */
+    background-position: 0.5px -85px;
+    background-size: 255px;
+    background-repeat: no-repeat;
+    margin-right: 70px;
+    /* display:flex; */
+    display:inline-block;
+  }
+  .footer1c-flex-wrapper{
+    height:68px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#232F3E;
+    padding:10px 0px 40px 0px;
+    box-sizing:content-box;
+  }
